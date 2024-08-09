@@ -1,0 +1,33 @@
+
+<%- include('partials/head') %>
+<!-- <body>
+    <header>
+        <nav>
+            <a href="/">LOGO</a>
+            <ul>
+                <li>
+                    <a href="/">INICIO</a>
+                </li>
+                <li><a href="/productos">PRODUCTOS</a></li>
+                <li><a href="/categorias">CATEGORIAS</a></li>
+            </ul>
+        </nav>
+    </header> -->
+
+    <main>
+        <h1>
+            <%= title %>
+        </h1>
+        
+<section class="container">
+        <% if (typeof productos != 'undefined') { productos.forEach(producto => { %>
+                <article class="column column-50">
+                    <h2><%= producto.title %></h2>
+                    <img src="<%= producto.image %>" alt="<%= producto.title %>"/>
+                    <p><%= producto.description %></p>
+                </article> 
+            <% }) } %>
+        </section>
+    </main>
+
+    <%- include('partials/footer') %>

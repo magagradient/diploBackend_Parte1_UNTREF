@@ -1,0 +1,11 @@
+h1 {
+    color: blue;
+    background-color: orange
+}
+
+;
+
+img {
+    max-width: 100%; /* La imagen no será más ancha que 100px */
+    max-height: 100%; /* La imagen no será más alta que 100px */
+}
