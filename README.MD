@@ -152,7 +152,7 @@
 - **Automatizar el servidor web**
   1. Definir comandos en package.json
   2. Utilizar node monitor
-  3. Utiliar **--watch**
+  3. Utilizar **--watch**
 - **Definición de multiples rutas con Express**
 - **El manejo de errores con Express**
 - **Códigos de estado:**
